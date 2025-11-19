@@ -34,7 +34,7 @@ def generate_user_agent():
     os = random.choice(os_systems)
     return f"Mozilla/5.0 ({os}) AppleWebKit/537.36 (KHTML, like Gecko) {browser}"
 
-BOT_TOKEN = 'tok'
+BOT_TOKEN = '8257017509:AAHmXivRtD9s2McRcdM5EuESSehL5C8FATY'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 user_data = {}
